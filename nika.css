@@ -1,0 +1,595 @@
+@font-face {
+    font-family: josefina;
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: josefina;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'popoins', 'sans-serif';
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header {
+
+    padding-top: 43px;
+    padding-left: 169px;
+    padding-right: 165px;
+    display: flex;
+
+
+}
+
+header ul a {
+    padding: 14px;
+    border-radius: 15px;
+    color: #062D3E;
+}
+
+.active {
+    background-color: #ED5C01;
+}
+
+h1 a {
+    font-size: 21px;
+    color: #062D3E;
+}
+
+.salome {
+
+    color: #189CAB;
+    font-size: 24px;
+}
+
+.satauri {
+    font-size: 96px;
+    width: 900px;
+    text-transform: uppercase;
+    margin-top: 29.67px;
+}
+
+.luka {
+    padding-left: 118px;
+    padding-right: 150px;
+
+}
+
+.isaritext {
+    width: 330px;
+}
+
+.isaritext.flex {
+    align-items: flex-start;
+}
+
+.stapilo {
+    color: #ED5C01;
+}
+
+.learn {
+    padding: 16px 36px;
+    background-color: #ED5C01;
+    border-radius: 247px;
+    width: 188px;
+    text-align: center;
+    color: #FCEFE2;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.moxeuli {
+    background-image: url(img/moxeuli.png);
+    background-repeat: no-repeat;
+    background-size: 397px 805px;
+    background-position: right;
+}
+
+
+
+
+
+
+
+
+.Login  {
+    padding: 12px 32px;
+    border: 2px solid #ffffff;
+    color: #000000;
+    border-radius: 190px;
+    border: 2px solid #000 ;
+
+}
+
+footer{
+   background-color: #062D3E;
+   padding: 60.5px 167.5px 93.5px 166.5px;
+
+}
+
+footer h3 a{
+    font-size: 48px;
+    color: #ED5C01;
+}
+footer nav a{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.sinnnnnernav{
+    width: 543px;
+}
+
+.hitler{
+    width: 139px;
+}
+
+.hitler a{
+    font-size: 34.94px;
+}
+
+.salu{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.s{
+    width: 208px;
+    margin-top: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+/* aqedan iwyeba servisis stilebi */
+
+
+
+
+
+
+
+.servis{
+font-size: 46px;
+color: #062D3E;
+padding-top: 118px;
+}
+
+.Pharmacy{
+    width: 540px;
+    background-color: #FBBD08;
+
+    padding: 61px 28px 0 32px;
+}
+
+.gulispranwva{
+    margin-bottom: 36px;
+}
+
+.patarasatauri{
+    color: #062D3E;
+    font-size: 26px;
+}
+
+.textph{
+    color: #062D3E;
+    font-size: 20px;
+    margin: 16px 0 38px 0;
+}
+
+.Explore a{
+    color: #EBE3CC;
+    font-size: 20px;
+    background-color: #062D3E;
+    border-radius: 190px;
+    padding: 12px 32px;
+    
+}
+
+.dzaglebi{
+    margin-top: 47px;
+    margin-left: 150px;
+}
+
+.Breed{
+    border: 1px solid #B3B3B3;
+    width: 541px;
+    padding: 111px 18px 123px 43px;
+}
+
+.wre{
+    width: 111px;
+    height: 111px;
+    background-color: #FBBD08;
+  border-radius: 50%;
+  background-image: url(img/makrateli.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Breed-specific{
+    font-size: 26px;
+   color: #224453;
+   margin-top: 36px;
+}
+
+.specific{
+color: #224453;
+font-size: 20px;
+margin-top: 16px;
+}
+
+.explo a{
+color: #224453;
+font-size: 20px;
+border-radius: 190px;
+padding: 12px 32px;
+
+border: 2px solid #224453;
+}
+
+.explo{
+    margin-top: 38px;
+}
+
+.dlageba.flex{
+    align-items: flex-start;
+    margin-top: 48px;
+}
+
+.shavi a{
+    color: #000;
+ border-color: #000;
+}
+
+    
+
+
+.modi-care{
+    background-color: #189CAB;
+}
+
+.Making{
+    font-size: 46px;
+    color: #EBE3CC;
+    width:543px ;
+
+}
+
+.didiqaldzagla.flex{
+    align-items: flex-start;
+    margin-top: 161px;
+}
+
+.Could{
+    color: #EBE3CC;
+    font-size: 22px;
+    width: 513px;
+    margin-top: 25px;
+}
+
+.ud{
+    font-size: 22px;
+    color: #EBE3CC;
+    margin-top: 25px;
+}
+
+.ud li{
+    list-style-type: circle;
+    line-height: 39px
+
+}
+
+.ud li::marker{
+    font-size: 40px;
+    color: #062D3E;
+
+}
+
+.ex{
+    margin-top: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+.dzagluka{
+    width: 50%;
+    background-color: #FBBD08;
+    height: 324px;
+    background-image: url(img/wverebi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Subscribe{
+    height: 324px;
+    width: 50%;
+    background-color: #ED5C01;
+    padding: 52px 97px 152px;
+}
+
+.dashoeba{
+    margin-top: 329px;
+}
+
+.kokispani{
+    width: 340px;
+    margin: 0 auto;
+    
+}
+
+.kokispani img{
+    margin-top: -56px;
+}
+
+.pet{
+    width: 543px;
+    color: #062D3E;
+    font-size: 46px;
+
+}
+
+.mylabel{
+    display: block;
+    margin-top: 51px;
+    font-size: 26px;
+    color: #FFFFFF;
+
+}
+
+.emaid{
+    display: block;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+     border-top: 1px solid #ffffff;
+     width: 472.72px;
+}
+
+
+
+/* ====================================================[=========================================== */
+
+
+.btn{
+    margin-bottom: 50px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px ;
+    margin-left: 120px;
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+ .wrapper{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.wrapper .from-box{
+    width: 100%;
+    padding: 40px;
+}
+
+
+  .from-box h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}  
+
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+} 
+
+
+
+
+.remember-forgot{
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin:-15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+ 
+
+/* ====================================================[=========================================== */
+#form{
+    width: 390px;
+    height: 400px;
+    background-color: rgb(250, 250, 250);
+    z-index: 99;
+    display: none;
+    position: absolute;
+    top:50vh;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    border-radius: 10%;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
